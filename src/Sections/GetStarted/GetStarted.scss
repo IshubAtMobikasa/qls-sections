@@ -1,0 +1,55 @@
+.get-started {
+  background: url("../../Assets/get-started.png");
+  background-size: cover;
+  background-position: -400px 0px;
+
+  h1 {
+    color: white;
+    font-size: 92px;
+    font-weight: bold;
+  }
+  p {
+    color: white;
+    font-size: 29px;
+    font-weight: 600;
+  }
+  button {
+    width: auto;
+    border: none;
+    background-color: white;
+    color: rgb(0, 119, 255);
+    font-size: 16px;
+    padding: 5px 20px;
+    margin-left: 12px;
+    font-weight: 400;
+  }
+  .container {
+    padding: 140px 0px;
+  }
+}
+
+@media (max-width: 1080px) {
+  .get-started {
+    background-position: -900px 0px;
+
+    h1 {
+      font-size: 75px;
+    }
+    p {
+      font-size: 25px;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+    .get-started {
+      background-position: -1100px 0px;
+  
+      h1 {
+        font-size: 50px;
+      }
+      p {
+        font-size: 18px;
+      }
+    }
+  }
