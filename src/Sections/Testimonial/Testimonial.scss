@@ -6,17 +6,19 @@
     .over-lap-img{
         width: 100%;
         position: relative;
+        height: 100%;
         img{
-            width: 60%;
+            width: 90%;
             position: absolute;
-            bottom: -269px;
+            bottom:-83px;
             left: 50%;
             transform: translate(-50%,0%);
         }
     }
 
     .review{
-        width: 100%;
+        width: 80%;
+        margin: 00 auto;
         p{
             width: 100%;
             padding: 20px;
@@ -49,7 +51,15 @@
     }
     
 }
-
+@media(max-width:1024px){
+    .testimonial{
+        .over-lap-img{
+            img{
+                width: 135%;
+            }
+        }
+    }    
+}
 @media(max-width:576px){
     .testimonial{
         padding: 83px 40px;

@@ -13,11 +13,8 @@
         height: 100%;
       }
       .carousel_caption {
-        position: absolute;
-        left: 115px;
-        top: 50%;
+        margin-top: 100px;
         color: white;
-        transform: translate(0%, -50%);
         h4 {
           font-size: 47px;
           font-weight: bold;
@@ -49,6 +46,9 @@
         }
       }
     }
+    .carousel.one{background: url(../../Assets/QLS-BUILDING-16x6-DARK.png); background-size: cover; background-position: center;}
+        .carousel.two{background: url(../../Assets/QLS-BUILDING-16x6-DARK.png); background-size: cover; background-position: center;}
+        .carousel.three{background: url(../../Assets/Mobile-banner.jpg); background-size: cover; background-position: center;}
     .hHJTFD {
       margin: 0px;
     }
@@ -72,14 +72,19 @@
     left: 50%;
     bottom: -30px;
     transform: translate(-50%, 0%);
+    cursor: pointer;
   }
 }
 
 @media (max-width: 1024px) {
   .carousel_container {
     .carousel_wrapper {
+      .sc-iBkjds.kdCslO.rec.rec-pagination {
+
+        bottom: 142px;
+        right: 110px;
+      }
       .carousel_caption {
-        left: 30px !important;
         h4 {
           font-size: 35px !important;
         }
@@ -98,8 +103,11 @@
 @media (max-width: 576px) {
     .carousel_container {
       .carousel_wrapper {
+        .sc-iBkjds.kdCslO.rec.rec-pagination {
+          bottom: 142px;
+          right: 30px;
+        }
         .carousel_caption {
-            left: 15px !important;
           h4 {
             font-size: 25px !important;
           }

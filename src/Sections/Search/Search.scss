@@ -104,8 +104,8 @@
       }
       .nav-link.active {
         color: black;
-        border-bottom: 1px solid #dd3645 !important;
-        background-color: #dd3645 !important;
+        border-bottom: 1px solid rgb(236,0,0) !important;
+        background-color: rgb(236,0,0) !important;
         border: transparent;
         border-radius: 0px;
         color: white;
@@ -115,7 +115,7 @@
           position: absolute;
           border-left: 7px transparent solid;
           border-right: 7px transparent solid;
-          border-top: 7px #dd3645 solid;
+          border-top: 7px rgb(236,0,0) solid;
           border-bottom: 7px transparent solid;
           bottom: -14px;
           left: 50%;
@@ -174,4 +174,16 @@
         }
       }
   }
+}
+@media(max-width:576px){
+  
+  .mobile-view{
+    .nav-tabs {
+      border-block: solid 1px rgb(207, 207, 207);
+      .nav-link {
+        font-size: 12px;
+        padding: 10px 5px;
+      }
+  }
+}
 }

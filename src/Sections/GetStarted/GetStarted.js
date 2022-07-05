@@ -1,15 +1,17 @@
 import React from 'react'
 import './GetStarted.scss'
-import { Container,Row } from 'react-bootstrap'
+import { Col, Container,Row } from 'react-bootstrap'
 
 const GetStarted = () => {
   return (
     <div className="get-started">
       <Container>
         <Row>
-          <h1>GET STARTED</h1>
-          <p>With a fast & free QLS stocking analysis.</p>
-          <button className="mt-2">Learn More</button>
+          <Col className="mx-5 mx-md-0">
+            <h1>GET STARTED</h1>
+            <p>With a fast & free QLS stocking analysis.</p>
+            <button>Learn More</button>
+          </Col>
         </Row>
       </Container>
     </div>
